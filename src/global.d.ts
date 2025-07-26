@@ -1,4 +1,5 @@
 declare module "*.json" {
-  const value: any;
+  import { GoogleCredentials } from "./types/googleCredentials";
+  const value: GoogleCredentials;
   export default value;
 }
